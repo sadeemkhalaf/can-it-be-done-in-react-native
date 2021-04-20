@@ -5111,9 +5111,10 @@ supports-color@^5.3.0:
   dependencies:
     has-flag "^3.0.0"
 
-svg-path-properties@^0.4.5:
-  version "0.4.5"
-  resolved "https://registry.yarnpkg.com/svg-path-properties/-/svg-path-properties-0.4.5.tgz#269af81cae0d73360d3eb934e8cb8b959bd5e92f"
+svg-path-properties@^0.5.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/svg-path-properties/-/svg-path-properties-0.5.2.tgz#7d75897fa3bf50f8b13a3bc5f3b98770d15be33c"
+  integrity sha512-CkcsxN6tQgVlk5G+hhnRwFh1NdnZ1a0yA0NERMXzc0mWhcBw+ufvoDLFbHc/EXZ0dPSKPEu/x9mHqMCarXG4qg==
 
 table@^4.0.3:
   version "4.0.3"
