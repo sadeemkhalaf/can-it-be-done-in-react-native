@@ -11,10 +11,10 @@
     "lint": "eslint App.js components/"
   },
   "dependencies": {
-    "expo": "^31.0.2",
+    "expo": "^39.0.1",
     "moment": "^2.22.2",
     "react": "16.5.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz"
+    "react-native": "0.60.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
