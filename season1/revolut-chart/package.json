@@ -9,8 +9,8 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "d3": "^5.7.0",
-    "d3-scale": "^2.1.2",
+    "d3": "^7.0.0",
+    "d3-scale": "^4.0.0",
     "d3-shape": "^1.2.2",
     "expo": "^30.0.1",
     "react": "16.3.1",
