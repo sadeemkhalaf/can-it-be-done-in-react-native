@@ -13,7 +13,7 @@
     "@turf/helpers": "^6.1.4",
     "expo": "^30.0.1",
     "lodash": "^4.17.11",
-    "moment": "^2.22.2",
+    "moment": "^2.29.4",
     "react": "16.3.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz",
     "svg-path-properties": "^0.4.5"
