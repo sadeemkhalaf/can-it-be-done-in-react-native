@@ -6,13 +6,16 @@
     "ios": "expo start --ios",
     "eject": "expo eject",
     "lint": "eslint App.tsx components/*",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "expo": "^32.0.0",
     "react": "16.5.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
-    "react-native-redash": "^1.4.1"
+    "react-native": "0.64.0",
+    "react-native-redash": "^1.4.1",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/expo": "^32.0.11",
@@ -20,5 +23,6 @@
     "eslint": "^5.16.0",
     "eslint-config-react-native-wcandillon": "^1.0.6"
   },
-  "private": true
+  "private": true,
+  "snyk": true
 }
