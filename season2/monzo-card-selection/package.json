@@ -7,20 +7,23 @@
     "web": "expo start --web",
     "eject": "expo eject",
     "lint": "eslint App.tsx components/*",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
-    "@expo/vector-icons": "^9.0.0",
-    "expo": "^33.0.0",
+    "@expo/vector-icons": "^10.0.0",
+    "expo": "^34.0.1",
     "expo-asset": "^5.0.1",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "react": "16.8.3",
     "react-dom": "^16.8.6",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz",
+    "react-native": "0.65.0",
     "react-native-gesture-handler": "~1.2.1",
     "react-native-reanimated": "1.0.0-alpha.11",
     "react-native-redash": "^4.0.0",
-    "react-native-web": "^0.11.4"
+    "react-native-web": "^0.11.4",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/react": "^16.8.19",
@@ -30,5 +33,6 @@
     "eslint-config-react-native-wcandillon": "1.2.3",
     "eslint-import-resolver-typescript": "^1.1.1"
   },
-  "private": true
+  "private": true,
+  "snyk": true
 }
