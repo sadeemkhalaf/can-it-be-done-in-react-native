@@ -6,14 +6,17 @@
     "ios": "expo start --ios",
     "eject": "expo eject",
     "lint": "eslint App.tsx components/*",
-    "compile": "tsc"
+    "compile": "tsc",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "color": "^3.1.0",
-    "d3-interpolate-path": "^2.0.1",
-    "expo": "^32.0.0",
+    "d3-interpolate-path": "^2.2.0",
+    "expo": "^32.0.6",
     "react": "16.5.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz"
+    "react-native": "0.64.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/color": "^3.0.0",
@@ -26,5 +29,6 @@
   "private": true,
   "peerDependencies": {
     "react-native-reanimated": "^1.0.0-alpha.11"
-  }
+  },
+  "snyk": true
 }
