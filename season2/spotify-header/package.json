@@ -9,11 +9,11 @@
     "tsc": "tsc"
   },
   "dependencies": {
-    "expo": "^33.0.0",
+    "expo": "^43.0.0",
     "react": "16.8.3",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz",
+    "react-native": "0.69.12",
     "react-native-redash": "^3.3.2",
-    "react-native-web": "^0.11.4"
+    "react-native-web": "^0.16.0"
   },
   "devDependencies": {
     "@types/expo__vector-icons": "^9.0.1",
