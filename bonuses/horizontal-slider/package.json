@@ -9,11 +9,11 @@
     "tsc": "tsc"
   },
   "dependencies": {
-    "expo": "^37.0.0",
+    "expo": "^51.0.0",
     "react": "16.9.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.0.tar.gz",
     "react-native-gesture-handler": "~1.6.0",
-    "react-native-reanimated": "~1.7.0",
+    "react-native-reanimated": "~2.3.0",
     "react-native-redash": "12.1.6"
   },
   "devDependencies": {
