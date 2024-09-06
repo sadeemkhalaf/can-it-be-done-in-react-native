@@ -12,8 +12,8 @@
     "d3": "^5.7.0",
     "d3-scale": "^2.1.2",
     "d3-shape": "^1.2.2",
-    "expo": "^30.0.1",
-    "react": "16.3.1",
+    "expo": "^50.0.0",
+    "react": "16.5.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz",
     "svg-path-properties": "^0.4.5"
   },
