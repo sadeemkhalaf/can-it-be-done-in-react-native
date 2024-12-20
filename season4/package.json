@@ -17,7 +17,7 @@
     "@react-native-async-storage/async-storage": "react-native-async-storage/async-storage",
     "@react-native-community/async-storage": "~1.12.0",
     "@react-native-community/masked-view": "0.1.10",
-    "@react-navigation/native": "^5.7.4",
+    "@react-navigation/native": "^7.0.14",
     "@react-navigation/stack": "^5.9.1",
     "buffer": "^6.0.3",
     "chess.js": "^0.11.0",
